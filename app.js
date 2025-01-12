@@ -12,7 +12,7 @@ function lockedProfile() {
         
         div.style.display=isVisible ? `none` : `block`
 
-        e.target.textContent = !isVisible ? `Hide it` : `Show mode`
+        e.target.textContent = !isVisible ? `Hide it` : `Show mode`;
 
     }
    })
